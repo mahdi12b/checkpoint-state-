@@ -41,13 +41,13 @@ Profile.defaultProps = {
     fullName:'FullName*******',
     bio:'***bio***',
     profession:'***profession***',
-    handleName:'***handleName***'    
+      
 }
 Profile.propTypes ={
     fullName:PropTypes.string.isRequired,
     bio:PropTypes.string,
     profession:PropTypes.string,
-    handleName:PropTypes.func
+    
 }
 
 
